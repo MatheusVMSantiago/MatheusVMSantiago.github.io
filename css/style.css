@@ -1,0 +1,70 @@
+@import url(ferramentas.css);
+
+* {
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+.header {
+    max-width: auto;
+    width: 100%;
+    display: flex;    
+    align-items: center;
+    padding: 13px 0px;
+    background: #FFF;
+    border-bottom: 3px solid #636363;
+  }
+
+  .header img 
+  {
+    width: 100px;  
+    margin-left: 10px;   
+  }
+
+  .header-menu {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;    
+    margin-top: 5px;
+  }
+   
+  .header-menu a {
+    text-decoration: none;
+    margin-left: 10px;    
+    display: block;
+    font-size: 1.1em;
+    color: #142349;
+  }
+  
+  .header ul {   
+    padding: 0px;
+    list-style: none;    
+    margin-left: 20px;
+  }
+  
+  .header-menu a:hover {
+    color: #9F1C20;
+  }
+
+.tratativas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: grey;
+    margin-left: 50px;
+    margin-right: 50px;    
+}
+
+.tratativas-clientes{
+    display: grid;
+    background: #9F1C20;   
+    justify-items: center;  
+    padding: 30px; 
+}
+
+.tratativas-curtas{
+    display: grid;
+    background: #1D4A6C;
+    justify-items: center;
+    padding: 30px;
+}
